@@ -1,0 +1,24 @@
+/* other styles via Bulma */
+
+body {
+  background: #F5EEF8;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding-top: 25%;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
