@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css"></script>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container"><!-- no bulma change -->
+    <div class="block box">
+      <h3>Bill amount:</h3>
+      <p class="block">$ <input id="total" type="number"></p>
+      <button id="tipLow" class="block button is-primary is-outlined" onclick="tipLow()">15%</button>
+      <button id="tipMed" class="button is-primary is-outlined" onclick="tipMed()">18%</button>
+      <button id="tipHigh" class="button is-primary is-outlined" onclick="tipHigh()">20%</button>
+      <p id="newAmt" class="block"></p>
+    </div>
+  </div>
+</body>
+
+</html>
